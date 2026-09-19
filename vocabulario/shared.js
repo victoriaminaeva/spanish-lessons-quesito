@@ -1,8 +1,8 @@
 // Lógica común a las tres vistas de Vocabulario (tarjetas, aprender, examen):
 // carga de datos, progreso compartido (Leitner) y comprobación de respuestas.
 
-const WORKER_URL = "https://REPLACE-ME.workers.dev/progress";
-const AUTH_TOKEN = "REPLACE_ME";
+const WORKER_URL = "https://spanish-quesito-progress.minaevaviktoriia.workers.dev/progress";
+const AUTH_TOKEN = "772e57464f7ce330e01da2801e7931e7ac78467980eb0fde58ab39a55bfe8dd1";
 
 const BOX_INTERVAL_DAYS = [1, 2, 4, 8, 16, 30];
 const MAX_BOX = BOX_INTERVAL_DAYS.length - 1;
