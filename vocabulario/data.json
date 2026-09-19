@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "lograr",
+    "front": "lograr",
+    "translation": "добиваться, достигать; удаваться (сделать что-то)",
+    "examples": [
+      "Después de estudiar mucho, he logrado aprobar el examen.",
+      "Ella logra levantarse temprano cada día."
+    ],
+    "added": "2026-09-19"
+  },
+  {
+    "id": "mejorar",
+    "front": "mejorar",
+    "translation": "улучшать(ся)",
+    "examples": [
+      "Quiero mejorar mi español este año.",
+      "Su nota ha mejorado mucho."
+    ],
+    "added": "2026-09-19"
+  },
+  {
+    "id": "intentar",
+    "front": "intentar",
+    "translation": "пытаться, стараться",
+    "examples": [
+      "Voy a intentar cocinar algo nuevo hoy.",
+      "Ella intenta hablar despacio con nosotros."
+    ],
+    "added": "2026-09-19"
+  },
+  {
+    "id": "recordar",
+    "front": "recordar",
+    "translation": "помнить, вспоминать",
+    "examples": [
+      "No recuerdo tu número de teléfono.",
+      "¿Recuerdas el nombre de la profesora?"
+    ],
+    "added": "2026-09-19"
+  },
+  {
+    "id": "olvidar",
+    "front": "olvidar",
+    "translation": "забывать",
+    "examples": [
+      "A veces olvido hacer los deberes.",
+      "Mi abuelo olvida las cosas fácilmente."
+    ],
+    "added": "2026-09-19"
+  }
+]
