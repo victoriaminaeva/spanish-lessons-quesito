@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Talleres de Español</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Talleres interactivos de español (A1–A2) basados en artículos reales, con corrección automática.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fff8ca;
+  --surface:#ffffff;
+  --surface-2:#cde3e8;
+  --ink:#2d120d;
+  --muted:#7a5048;
+  --accent:#6b0b0c;
+  --accent-ink:#fff8ca;
+  --pop:#d9761f;
+  --border:#ecd98a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#2d120d;
+    --surface:#3a1a14;
+    --surface-2:#452019;
+    --ink:#fff8ca;
+    --muted:#d9c58f;
+    --accent:#ef6b52;
+    --accent-ink:#2d120d;
+    --pop:#f2a544;
+    --border:#4a2a1e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#2d120d; --surface:#3a1a14; --surface-2:#452019; --ink:#fff8ca;
+  --muted:#d9c58f; --accent:#ef6b52; --accent-ink:#2d120d; --pop:#f2a544; --border:#4a2a1e;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Public Sans", system-ui, sans-serif; line-height:1.6;
+  padding-inline:20px; padding-block:0 60px;
+}
+.wrap{max-width:760px; margin:0 auto;}
+h1,h2{font-family:"Fraunces", Georgia, serif; text-wrap:balance;}
+header{padding-block:48px 20px;}
+h1{font-size:clamp(28px,5vw,38px); margin:0 0 10px;}
+.lead{color:var(--muted); font-size:16px; max-width:56ch;}
+.grid{display:grid; gap:16px; margin-top:32px;}
+.card{
+  background:var(--surface); border:1px solid var(--border); border-radius:14px;
+  padding:20px 22px; display:block; text-decoration:none; color:inherit;
+  transition:border-color .15s ease;
+}
+.card:hover{border-color:var(--accent);}
+.card-top{display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+.card-title{font-family:"Fraunces", serif; font-weight:600; font-size:19px; color:var(--ink);}
+.level{
+  font-family:"Space Mono", monospace;
+  font-size:11px; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  background:var(--surface-2); color:var(--pop); border-radius:999px; padding:3px 10px;
+  white-space:nowrap;
+}
+.card-desc{color:var(--muted); font-size:14.5px; margin-top:8px;}
+.card-meta{font-size:12.5px; color:var(--muted); margin-top:10px; font-style:italic;}
+.empty-note{
+  margin-top:16px; padding:16px 18px; border-radius:12px; background:var(--surface);
+  border:1px dashed var(--border); color:var(--muted); font-size:14px;
+}
+footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--border); font-size:13px; color:var(--muted); text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Talleres de Español</h1>
+  <p class="lead">Lecciones interactivas de nivel A1–A2 basadas en artículos reales: vocabulario, preguntas de debate, gramática en contexto y un test con corrección automática al pulsar un botón.</p>
+</header>
+
+<h2 id="vocabulario" style="margin-top:44px;">Vocabulario</h2>
+<p class="lead">Tarjetas de palabras y expresiones con repetición espaciada: tarjetas deslizables, aprender, examen y práctica libre con las palabras ya dominadas.</p>
+<div class="grid">
+
+  <a class="card" href="vocabulario/index.html">
+    <div class="card-top">
+      <span class="card-title">Repasar vocabulario</span>
+      <span class="level">SRS</span>
+    </div>
+    <p class="card-desc">Tarjetas con palabras y expresiones: palabra/expresión, traducción, explicación en español sencillo y ejemplos.</p>
+  </a>
+
+</div>
+
+<h2 id="gramatica" style="margin-top:44px;">Gramática</h2>
+<p class="lead">Bloque de temas de gramática con reglas y ejercicios de dificultad creciente, y corrección automática.</p>
+<div class="empty-note">Aún no hay temas de gramática publicados aquí.</div>
+
+<h2 style="margin-top:44px;">Talleres por artículos</h2>
+<div class="empty-note">Aún no hay talleres publicados aquí.</div>
+
+<footer>Talleres de español · Nivel A1–A2</footer>
+
+</div>
+</body>
+</html>
